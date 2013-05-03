@@ -72,7 +72,7 @@ public class PerformanceSettings extends SettingsPreferenceFragment
             mUse16bppAlphaPref.setChecked("1".equals(use16bppAlpha));
 
             /* Display the warning dialog */
-            alertDialog = new AlertDialog.Builder(getActivity()).create();
+            /*alertDialog = new AlertDialog.Builder(getActivity()).create();
             alertDialog.setTitle(R.string.performance_settings_warning_title);
             alertDialog.setMessage(getResources().getString(R.string.performance_settings_warning));
             alertDialog.setButton(DialogInterface.BUTTON_POSITIVE,
@@ -87,7 +87,7 @@ public class PerformanceSettings extends SettingsPreferenceFragment
                     PerformanceSettings.this.finish();
                 }
             });
-            alertDialog.show();
+            alertDialog.show();*/
         }
     }
 
